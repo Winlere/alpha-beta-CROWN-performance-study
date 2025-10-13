@@ -1,0 +1,35 @@
+{
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+                //alpha-beta-CROWN/complete_verifier/exp_configs/vnncomp23/vggnet16.yaml
+                {
+                        "name": "Python Debugger: abcrown cifar_100 66",
+                        "type": "debugpy",
+                        "request": "launch",
+                        "program": "${workspaceFolder}/alpha-beta-CROWN-vnncomp2025/complete_verifier/abcrown.py",
+                        "cwd": "${workspaceFolder}/alpha-beta-CROWN-vnncomp2025/complete_verifier/",
+                        "console": "integratedTerminal",
+                        "args": [
+                                // --config exp_configs/vnncomp24/cifar100.yaml --select_instance 66
+                                "--config",
+                                "${workspaceFolder}/exp_configs/cifar_100.yaml",
+                        ]
+                },
+                {
+                        "name": "Python Debugger: abcrown nn4sys 192",
+                        "type": "debugpy",
+                        "request": "launch",
+                        "program": "${workspaceFolder}/alpha-beta-CROWN-vnncomp2025/complete_verifier/abcrown.py",
+                        "cwd": "${workspaceFolder}/alpha-beta-CROWN-vnncomp2025/complete_verifier/",
+                        "console": "integratedTerminal",
+                        "args": [
+                                // --config exp_configs/vnncomp24/cifar100.yaml --select_instance 66
+                                "--config",
+                                "${workspaceFolder}/exp_configs/nn4sys.yaml",
+                        ]
+                },
+        ]
+}

@@ -1,0 +1,10 @@
+{
+        "pylint.args": [
+                "--rcfile=${workspaceFolder}/Verifier_Development/.pylintrc"
+        ],
+        "pylint.cwd": "${workspaceFolder}/Verifier_Development",
+        "pylint.enabled": false,
+        "editor.formatOnSaveMode": "modificationsIfAvailable",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+}

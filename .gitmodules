@@ -1,0 +1,6 @@
+[submodule "alpha-beta-CROWN-vnncomp2025"]
+	path = alpha-beta-CROWN-vnncomp2025
+	url = https://github.com/Verified-Intelligence/alpha-beta-CROWN_vnncomp2025.git
+[submodule "Verifier_Development"]
+	path = Verifier_Development
+	url = git@github.com:Verified-Intelligence/Verifier_Development.git
